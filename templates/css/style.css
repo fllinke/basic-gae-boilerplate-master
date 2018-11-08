@@ -1,0 +1,33 @@
+.bg-light1 {
+  background-color: #b26dc1;
+}
+ .navbar {
+ }
+
+ .containerTOP {
+   width: 100%;
+   padding-right: 15px;
+   padding-left: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 40px;
+ }
+
+ .obrazec {
+   width: 600px;
+   display: block;
+   padding-right: 5px;
+   padding-left: 5px;
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 40px;
+ }
+
+ .footer1 {
+   display: block;
+   padding-right: 0 auto;
+   padding-left: 25px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin: 0 auto;
+ }

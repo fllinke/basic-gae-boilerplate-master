@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Frizeraj</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </head>
+
+    <body>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light1">
+          <a class="navbar-brand" href="#">FRIZERAJ</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Domov<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Kontakt</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Delovni čas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cenik</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Galerija</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Naroči me</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Išči" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Brskalnik</button>
+            </form>
+          </div>
+        </nav>
+      </header>
+
+      <div class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-25" src="https://i.pinimg.com/564x/24/55/28/245528615b521d82270da9518a65690f.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-25" src="https://i.pinimg.com/564x/49/b9/47/49b947fc9de3173c64b229d77dea2607.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-25" src="https://i.pinimg.com/564x/87/b3/ef/87b3ef20bee19c62eb7e57042f992c60.jpg" alt="Third slide">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    <hr color="#b26dc1">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="containerTOP"><h4>TRENUTNI TOP 3</h4></div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="data:image/jpeg;base64,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" alt="Generic placeholder image" width="140" height="140">
+          <h5>DAVID MALLET</h5>
+          <p>David Mallet is a hairstylist based in Paris, France. His shop is called the Salon de Coiffeur located at 14 Rue Notre Dame des Victoires, Paris, 75002. Customers can come in by appointment only, and there is usually a waiting period of three weeks for Mallet’s services.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://res.cloudinary.com/allamerican/image/fetch/t_face_s270/https://speakerdata2.s3.amazonaws.com/photo/image/785606/hiro.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h5>HIRO HARAGUCHI</h5>
+          <p>Hiro Haraguchi is a hair designer based in New York City. The shop is called the Hiro Haraguchi Hair Salon and it is located at the Suite 400 of 41 East 57th Street in New York City. Clients should call to book their appointments, and a haircut in this salon can cost up to $300.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="rounded-circle" src="https://www.miamiindulge.com/wp-content/uploads/sites/4/2017/11/11-Marie-Robinson-portrait-1200x1218.jpg" alt="Generic placeholder image" width="140" height="140">
+          <h5>MARIE ROBINSON</h5>
+          <p>Marie Robinson is a hairstylist based in New York. Her shop is called the Marie Robinson Salon and it is located at the fourth floor in 155 Fifth Avenue in New York City. Appointments should be done three weeks in advance, with fees ranging from $200 for single process to $300 for highlights.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+    <hr color="#b26dc1">
+
+      <div class="containerTOP"><h4>NAROČI ME</h4></div>
+      <div class="obrazec">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Ime in priimek</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Elektronski naslov</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Telefonska številka</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Termin</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Datum in ura">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Vaše želje</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="pranje / striženje / barvanje / »all of the above«">
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Strinjam se s pogoji poslovanja</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Pošlji</button>
+        </form>
+      </div>
+
+    <hr color="#b26dc1">
+
+      <footer>
+        <div class="containerTOP"><h4>KONTAKT</h4></div>
+        <div class="footer1">
+        <h6>Špela Prašnikar <br/>
+            Brilejeva ulica 7 <br/>
+            Tel. št.: 000000000 <br/>
+            Davčna št.: 11111111</h6>
+      </footer>
+
+    </body>
+</html>
